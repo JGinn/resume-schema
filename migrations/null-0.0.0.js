@@ -4,6 +4,9 @@ This script will update versions of resume.json that were set before 0.0.0
 
 ### Change Log
 
+
+* 2015-11-11 - references to `skills` and `languages` are added under `work`, `volunteer` and `education` > `courses`.
+* 2015-11-11 - `gpa` was changed to the more universally applicable `result`. Added optional per-course results under `education`.
 * 2014-07-30 - `languages` was added - [Dicussions](https://github.com/jsonresume/resume-schema/issues/34) - [Commit](https://github.com/jsonresume/resume-schema/commit/f02300e36ba076787d008928b29963c3ffce6121)
 * 2014-07-30 - `hobbies` renamed to `interests`
 * 2014-07-30 - `volunteer` was added  - [Discussion](https://github.com/jsonresume/resume-schema/issues/43) - [Commit](https://github.com/jsonresume/resume-schema/commit/dee007c2e373645b6b67d07a92aebf22fda5b95a)

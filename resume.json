@@ -62,10 +62,26 @@
       "studyType": "Bachelor",
       "startDate": "2011-06-01",
       "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "result": "4.0",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        {
+          "course": "DB1101 - Basic SQL",
+          "result": "86%",
+          "skills": [
+            {
+              "skill": "SQL",
+              "howUsed": "Implemented a complex database system to store comic books"
+            },
+            {
+              "skill": "Relational DB Design",
+              "howUsed": "Taught how to design relational database in terms of relational algebra and how to normalise database."
+            }
+          ]
+        }, {
+          "course": "CS2011 - Java Introduction",
+          "result": "Pass",
+          "skills": ["Java", "Object Oriented Programming"]
+        }
       ]
     }
   ],
@@ -103,6 +119,14 @@
         "Mpeg",
         "MP4",
         "GIF"
+      ]
+    },
+    {
+      "name": "Database Development",
+      "level": "Intermediate",
+      "keywords": [
+        "SQL",
+        "Relational DB Design"
       ]
     }
   ],
